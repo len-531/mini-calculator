@@ -14,3 +14,10 @@ elif len(password) >= 6:
     print("Medium Password")
 else:
     print("Weak Password")
+
+print("-----Palindrome Checker-----")
+text=input("Enter text")
+if text == text[::-1]:
+    print("Palindrome")
+else :
+    print("Not Palindrome")
